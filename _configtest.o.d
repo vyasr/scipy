@@ -2,3 +2,11 @@ commandline: -I/home/tmabbot/anaconda3/include/python3.5m -c-I/home/tmabbot/anac
 commandline: -I/home/tmabbot/anaconda3/include/python3.5m -c-I/home/tmabbot/anaconda3/include/python3.5m
 commandline: -I/home/tmabbot/anaconda3/include/python3.5m -c-I/home/tmabbot/anaconda3/include/python3.5m
 commandline: -I/home/tmabbot/anaconda3/include/python3.5m -c-I/home/tmabbot/anaconda3/include/python3.5m
+commandline: -I/Users/vramasub/miniconda3/envs/scipy_sprints/include/python3.6m -c-I/Users/vramasub/miniconda3/envs/scipy_sprints/include/python3.6m
+commandline: -I/Users/vramasub/miniconda3/envs/scipy_sprints/include/python3.6m -c-I/Users/vramasub/miniconda3/envs/scipy_sprints/include/python3.6m
+commandline: -I/Users/vramasub/miniconda3/envs/scipy_sprints/include/python3.6m -c-I/Users/vramasub/miniconda3/envs/scipy_sprints/include/python3.6m
+commandline: -I/Users/vramasub/miniconda3/envs/scipy_sprints/include/python3.6m -c-I/Users/vramasub/miniconda3/envs/scipy_sprints/include/python3.6m
+commandline: -I/Users/vramasub/miniconda3/envs/scipy_sprints/include/python3.6m -c-I/Users/vramasub/miniconda3/envs/scipy_sprints/include/python3.6m
+commandline: -I/Users/vramasub/miniconda3/envs/scipy_sprints/include/python3.6m -c-I/Users/vramasub/miniconda3/envs/scipy_sprints/include/python3.6m
+commandline: -I/Users/vramasub/miniconda3/envs/scipy_sprints/include/python3.6m -c-I/Users/vramasub/miniconda3/envs/scipy_sprints/include/python3.6m
+commandline: -I/Users/vramasub/miniconda3/envs/scipy_sprints/include/python3.6m -c-I/Users/vramasub/miniconda3/envs/scipy_sprints/include/python3.6m

@@ -9,7 +9,9 @@ from numpy.testing import (TestCase, assert_raises, run_module_suite,
 
 import scipy.signal.bsplines as bsp
 
+
 class TestBSplines(TestCase):
+    """Test behaviors of bsplines. The values tested against were returned as of scipy 1.1.0 and are included for regression testing purposes"""
 
     def test_factorial(self):
         # can't all be zero state
@@ -110,7 +112,7 @@ class TestBSplines(TestCase):
             [[0.41034756, 0.40914378, 0.4102342, 0.40903417],
              [0.41070756, 0.40949093, 0.4101206, 0.41028154],
              [0.40915718, 0.41039493, 0.41002027, 0.41059155],
-             [0.40929673, 0.40983209, 0.40928983, 0.4085849]]) 
+             [0.40929673, 0.40983209, 0.40928983, 0.4085849]])
         assert_allclose(bsp.bspline(data_array_complex, 10), result_array_complex)
 
     def test_gauss_spline(self):
@@ -157,7 +159,6 @@ class TestBSplines(TestCase):
         assert_allclose(bsp.cspline1d(array([1., 2, 3, 4, 5]), 1), c1d)
         c1d0 = array([0.78683946, 2.05333735, 2.99981113, 3.94741812, 5.21051638])
         assert_allclose(bsp.cspline1d(array([1., 2, 3, 4, 5])), c1d0)
-        assert_equal(bsp.cspline1d(array([1., 2, 3, 4, 5]), -0.1), array([nan, nan, nan, nan, nan]))
 
     def test_qspline1d(self):
         np.random.seed(12463)

@@ -104,15 +104,12 @@ class TestBSplines(TestCase):
         np.random.seed(12458)
         assert_allclose(bsp.bspline(np.random.rand(1, 1), 2), array([[0.73694695]]))
         data_array_complex = np.random.rand(4, 4) + np.random.rand(4, 4)*1j
-        # scaling the magnitude by 10 makes the results close enough to zero,
-        # that the assertion fails, so just make the elements have a mix of
-        # positive and negative imaginary components...
-        data_array_complex = 0.1*(1+1j-data_array_complex)
+        data_array_complex = 0.1*data_array_complex
         result_array_complex = array(
-            [[0.41034756, 0.40914378, 0.4102342, 0.40903417],
-             [0.41070756, 0.40949093, 0.4101206, 0.41028154],
-             [0.40915718, 0.41039493, 0.41002027, 0.41059155],
-             [0.40929673, 0.40983209, 0.40928983, 0.4085849]])
+            [[0.40882362, 0.41021151, 0.40886708, 0.40905103],
+             [0.40829477, 0.4102123,  0.40966097, 0.40939871],
+             [0.41036803, 0.40901724, 0.40965331, 0.40879513],
+             [0.41032862, 0.40925287, 0.41037754, 0.41027477]])
         assert_allclose(bsp.bspline(data_array_complex, 10), result_array_complex)
 
     def test_gauss_spline(self):

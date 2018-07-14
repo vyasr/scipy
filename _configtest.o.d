@@ -10,3 +10,7 @@ commandline: -I/Users/vramasub/miniconda3/envs/scipy_sprints/include/python3.6m 
 commandline: -I/Users/vramasub/miniconda3/envs/scipy_sprints/include/python3.6m -c-I/Users/vramasub/miniconda3/envs/scipy_sprints/include/python3.6m
 commandline: -I/Users/vramasub/miniconda3/envs/scipy_sprints/include/python3.6m -c-I/Users/vramasub/miniconda3/envs/scipy_sprints/include/python3.6m
 commandline: -I/Users/vramasub/miniconda3/envs/scipy_sprints/include/python3.6m -c-I/Users/vramasub/miniconda3/envs/scipy_sprints/include/python3.6m
+commandline: -I/Users/vramasub/miniconda3/envs/scipy_sprints/include/python3.6m -c-I/Users/vramasub/miniconda3/envs/scipy_sprints/include/python3.6m
+commandline: -I/Users/vramasub/miniconda3/envs/scipy_sprints/include/python3.6m -c-I/Users/vramasub/miniconda3/envs/scipy_sprints/include/python3.6m
+commandline: -I/Users/vramasub/miniconda3/envs/scipy_sprints/include/python3.6m -c-I/Users/vramasub/miniconda3/envs/scipy_sprints/include/python3.6m
+commandline: -I/Users/vramasub/miniconda3/envs/scipy_sprints/include/python3.6m -c-I/Users/vramasub/miniconda3/envs/scipy_sprints/include/python3.6m
